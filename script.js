@@ -5,9 +5,9 @@ const pdfData = {
         items: [
             {
                 name: 'Python',
-                icon: 'assets/python.png',
-                topic: 'Python',
-                files: ['python.pdf']
+                icon: 'assets/cover_pages/python.png',
+                topic: 'Programming Languages',
+                files: ['Python_Programming.pdf']
             }
         ]
     },
@@ -17,8 +17,8 @@ const pdfData = {
         items: [
             {
                 name: 'Git & GitHub',
-                icon: 'assets/git.png',
-                topic: 'GitHub',
+                icon: 'assets/cover_pages/git.png',
+                topic: 'Version Control',
                 files: ['git.pdf']
             }
         ]
@@ -29,15 +29,15 @@ const pdfData = {
         items: [
             {
                 name: 'Docker',
-                icon: 'assets/docker.png',
-                topic: 'Docker',
-                files: ['docker.pdf']
+                icon: 'assets/cover_pages/docker.png',
+                topic: 'Devops & Containerization',
+                files: ['Docker_notes.pdf']
             },
 
             {
                 name: 'Kubernetes',
-                icon: 'assets/kubernetes.png',
-                topic: 'Kubernetes',
+                icon: 'assets/cover_pages/kubernetes.png',
+                topic: 'Devops & Containerization',
                 files: ['kubernetes.pdf']
             }
         ]
@@ -48,15 +48,15 @@ const pdfData = {
         items: [
             {
                 name: 'Linux',
-                icon: 'assets/linux.png',
-                topic: 'Linux',
+                icon: 'assets/cover_pages/linux.png',
+                topic: 'OS',
                 files: ['linux.pdf']
             },
 
             {
-                name: 'Operating System',
-                icon: 'assets/os.png',
-                topic: 'OperatingSystem',
+                name: 'Operating System [Upcoming..]',
+                icon: 'assets/cover_pages/os.png',
+                topic: 'OS',
                 files: ['operating_system.pdf']
             }
         ]
@@ -67,8 +67,8 @@ const pdfData = {
         items: [
             {
                 name: 'PostgreSQL',
-                icon: 'assets/postgresql.png',
-                topic: 'PostgreSQL',
+                icon: 'assets/cover_pages/postgresql.png',
+                topic: 'Database',
                 files: ['postgresql.pdf']
             }
         ]
