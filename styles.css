@@ -756,3 +756,353 @@ body {
         font-size: 1.9em;
     }
 }
+/* =========================================
+   EXTRA SOFT MOBILE COLOR THEME
+   (3 LEVEL MILDER THAN DESKTOP/TABLET)
+========================================= */
+
+@media (max-width: 768px) {
+
+    :root {
+
+        /* softened primary palette */
+
+        --vibrant-pink: #F7A8C8;
+        --vibrant-teal: #AEEAF3;
+        --vibrant-orange: #FFD1A6;
+        --vibrant-purple: #D8B8F2;
+        --vibrant-yellow: #FFE9A8;
+
+        --dark-bg: #6D7B9A;
+        --light-bg: #FFFDF4;
+
+        --text-dark: #4B4B63;
+        --text-light: #FFFFFF;
+    }
+
+    body {
+
+        background:
+            linear-gradient(
+                180deg,
+                #fffdfc 0%,
+                #fff8fb 40%,
+                #f7fbff 100%
+            );
+
+        color: var(--text-dark);
+    }
+
+    /* ===== HEADER ===== */
+
+    .header {
+
+        background:
+            linear-gradient(
+                90deg,
+                #F7A8C8 0%,
+                #D8B8F2 45%,
+                #AEEAF3 100%
+            );
+
+        border-bottom: 3px solid #FFE9A8;
+
+        box-shadow:
+            0 6px 18px rgba(0,0,0,0.08);
+    }
+
+    .nav-link:hover {
+
+        background: rgba(255,255,255,0.28);
+    }
+
+    /* ===== HERO ===== */
+
+    .hero {
+
+        background:
+            linear-gradient(
+                135deg,
+                #FFF4F7 0%,
+                #FFF9F0 35%,
+                #F3FAFF 70%,
+                #F8F2FF 100%
+            );
+    }
+
+    .hero-title {
+
+        background:
+            linear-gradient(
+                90deg,
+                #E890B6,
+                #C6A0E8
+            );
+
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .hero-subtitle {
+
+        color: #B58AD8;
+    }
+
+    .hero-logo {
+
+        border: 4px solid rgba(255,255,255,0.95);
+
+        box-shadow:
+            0 12px 28px rgba(0,0,0,0.08);
+    }
+
+    /* ===== BUTTONS ===== */
+
+    .cta-button {
+
+        background:
+            linear-gradient(
+                135deg,
+                #FFD1A6,
+                #F7A8C8
+            );
+
+        box-shadow:
+            0 6px 14px rgba(0,0,0,0.08);
+    }
+
+    .submit-btn {
+
+        background:
+            linear-gradient(
+                135deg,
+                #F7A8C8,
+                #F4B2C8
+            );
+    }
+
+    /* ===== TITLES ===== */
+
+    .section-title {
+
+        background:
+            linear-gradient(
+                90deg,
+                #E89ABC,
+                #C8A6E8,
+                #9FDCE7
+            );
+
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    /* ===== CARDS ===== */
+
+    .about-intro,
+    .about-topics,
+    .group-card,
+    .contact-box {
+
+        background: rgba(255,255,255,0.92);
+
+        box-shadow:
+            0 8px 20px rgba(0,0,0,0.05);
+    }
+
+    .about-card {
+
+        box-shadow:
+            0 10px 22px rgba(0,0,0,0.06);
+    }
+
+    .vibrant-pink {
+
+        background:
+            linear-gradient(
+                135deg,
+                #F7A8C8,
+                #F9C5DA
+            );
+    }
+
+    .vibrant-teal {
+
+        background:
+            linear-gradient(
+                135deg,
+                #AEEAF3,
+                #C9F4F8
+            );
+    }
+
+    .vibrant-orange {
+
+        background:
+            linear-gradient(
+                135deg,
+                #FFD1A6,
+                #FFE1C2
+            );
+    }
+
+    .vibrant-purple {
+
+        background:
+            linear-gradient(
+                135deg,
+                #D8B8F2,
+                #E7D3F8
+            );
+    }
+
+    /* ===== TOPIC TAGS ===== */
+
+    .topic-tag-wrapper {
+
+        background:
+            linear-gradient(
+                135deg,
+                #F2B4CF,
+                #D6B6EE
+            );
+
+        color: #ffffff;
+    }
+
+    /* ===== PDF ITEMS ===== */
+
+    .pdf-item {
+
+        background:
+            linear-gradient(
+                135deg,
+                #ffffff 0%,
+                #fdfaff 100%
+            );
+
+        box-shadow:
+            0 3px 10px rgba(0,0,0,0.03);
+    }
+
+    .pdf-item:hover {
+
+        border-color: #E6B1CB;
+
+        box-shadow:
+            0 6px 14px rgba(230,177,203,0.15);
+    }
+
+    .pdf-thumbnail-wrapper {
+
+        background:
+            linear-gradient(
+                135deg,
+                #FFF7FA 0%,
+                #F4FBFF 100%
+            );
+    }
+
+    /* ===== FORM FIELDS ===== */
+
+    .form-group input,
+    .form-group textarea {
+
+        border: 2px solid #FFD1A6;
+
+        background: #FFFDFC;
+    }
+
+    .form-group input:focus,
+    .form-group textarea:focus {
+
+        border-color: #E7A8C7;
+    }
+
+    /* ===== CONTACT INFO ===== */
+
+    .contact-info {
+
+        color: #B594D8;
+    }
+
+    /* ===== FOOTER ===== */
+
+    .footer {
+
+        background:
+            linear-gradient(
+                90deg,
+                #F3B0CC,
+                #D5B6EE,
+                #AEEAF3
+            );
+    }
+}
+
+
+/* =========================================
+   EXTRA SOFT SMALL MOBILE
+========================================= */
+
+@media (max-width: 480px) {
+
+    body {
+
+        background:
+            linear-gradient(
+                180deg,
+                #fffefe 0%,
+                #fffafc 50%,
+                #f8fcff 100%
+            );
+    }
+
+    .header {
+
+        background:
+            linear-gradient(
+                90deg,
+                #F9BCD5,
+                #DFC9F4,
+                #C6F1F6
+            );
+    }
+
+    .hero {
+
+        background:
+            linear-gradient(
+                135deg,
+                #FFF8FA,
+                #FFFDF6,
+                #F6FCFF,
+                #FBF7FF
+            );
+    }
+
+    .cta-button,
+    .submit-btn {
+
+        filter: saturate(0.85);
+    }
+
+    .about-card,
+    .group-card,
+    .contact-box {
+
+        box-shadow:
+            0 5px 14px rgba(0,0,0,0.04);
+    }
+
+    .footer {
+
+        background:
+            linear-gradient(
+                90deg,
+                #F6C4D9,
+                #E3D0F7,
+                #CAF4F8
+            );
+    }
+}

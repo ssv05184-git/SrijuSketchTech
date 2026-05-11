@@ -54,10 +54,10 @@ const pdfData = {
             },
 
             {
-                name: 'Operating System [Upcoming..]',
+                name: 'Operating System',
                 icon: 'assets/cover_pages/os.png',
                 topic: 'OS',
-                files: ['operating_system.pdf']
+                files: ['OS_basics.pdf']
             }
         ]
     },
