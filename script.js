@@ -50,7 +50,7 @@ const pdfData = {
                 name: 'Linux',
                 icon: 'assets/cover_pages/linux.png',
                 topic: 'OS',
-                files: ['linux.pdf']
+                files: ['Linux.pdf']
             },
 
             {
